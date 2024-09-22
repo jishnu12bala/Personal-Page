@@ -179,12 +179,11 @@ body{
   background-color: #202020;
   padding-bottom: 20px;
 }
-
 .about{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom:50px;
+  margin-bottom:100px;
 }
 
 .about-content{
@@ -386,12 +385,11 @@ body{
 /*---------------------------Projects---------------------------*/
 
 .project-content{
-  padding: 70px 0 90px;
-  /* color:#fff;  */
+  padding: 65px 0 90px;
 }
 .project-title{
-  padding-top: 100px;
-  margin-bottom: 60px;
+  padding-top: 70px;
+  margin-bottom: 20px;
   text-align: center;
 }
 .project-title h4{
@@ -399,15 +397,13 @@ body{
   font-size: 40px;
   line-height: 40px;
   color: #1E90FF;
-  margin-bottom: 20px;
-}
-.project-title p{
-  color: #e5e5e5;
 }
 .projects{
+  height: 310px;
   display: flex;
   justify-content:space-between;
   flex-wrap: wrap;
+  padding: 0 0 20px;
 }
 .project{
     /* padding: 30px 15px; */
@@ -416,29 +412,29 @@ body{
     border-radius: 10px;
     width: 100%;
     position: relative;
-    padding: 25px;
+    padding: 15px;
     text-align: center;
     flex-basis: 32%;
     transition: .3s;
 }
 .project i{
   background-color: #1E90FF;
-  width: 60px;
-  height: 60px;
+  width: 45px;
+  height: 45px;
   color: #333;
-  font-size: 26px;
-  line-height: 60px;
+  font-size: 20px;
+  line-height: 45px;
   border-radius: 50%;
 }
 .project h4{
   font-size: 26px;
-  text-transform: capitalize;
-  margin: 20px 0;
+  margin: 5px 0;
 }
 .project p{
   text-align: justify;
 }
 .project a {
+  padding-top: 15px;
   display: block;
   color: #1E90FF;
 }
